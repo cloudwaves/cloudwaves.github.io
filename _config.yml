@@ -35,7 +35,7 @@ kramdown:
 owner:
   name: cloudwaves
   avatar: cloudwave.jpg
-  job: "Solution Techinical Architect"
+  job: "Code for Cloud"
   #bio: "A simple and awesome blog theme powered by jekyll."
   email:
   disqus-shortname:
@@ -50,7 +50,7 @@ owner:
   bing-verify:
   github: cloudwave
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: https://in.linkedin.com/in/cloud-waves-8458ab126
   xing: #username
   instagram: #username
   lastfm: #username
