@@ -6,7 +6,7 @@
 title: Cloudwaves
 email:
 description: Cloudwaves Blog.
-url: # Cloudwaves Blog.
+url: https://cloudwaves.github.io
 
 
 #
@@ -36,7 +36,7 @@ owner:
   name: cloudwaves
   avatar: cloudwave.jpg
   job: "Code for Cloud"
-  #bio: "A simple and awesome blog theme powered by jekyll."
+  #bio: "Sample Bio."
   email:
   disqus-shortname:
   twitter: #username
