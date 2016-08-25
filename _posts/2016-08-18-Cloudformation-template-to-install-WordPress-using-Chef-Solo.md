@@ -3,6 +3,7 @@ layout: post
 title:  "Cloudformation template to install WordPress using Chef-Solo"
 date:   2016-08-18 15:07:19
 categories: [aws, cloudformation, chef, wordpress]
+tags: [aws, cloudformation, chef-solo, chef, wordpress, vpc]
 comments: true
 ---
 This Cloudformation template has created to build a stack from scratch starting from <!--more-->`vpc`, `two public subnets` for elastic loadbalancer (elb), `NAT` instance, `private subnet` for webserver and RDS and uses `autoscaling` for scale-up and scale-down. The Cloudformation template bootstrap chef-solo using cfn-init and install [latest][latest] WordPress.
