@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cloudformation template to install WordPress using Chef-Solo"
-date:   2015-08-18 15:07:19
+date:   2016-08-18 15:07:19
 categories: [aws, cloudformation, chef, wordpress]
 comments: true
 ---
