@@ -8,6 +8,7 @@ comments: true
 This Cloudformation template has created to build a stack from scratch starting from <!--more-->`vpc`, `two public subnets` for elastic loadbalancer (elb), `NAT` instance, `private subnet` for webserver and RDS and uses `autoscaling` for scale-up and scale-down. The Cloudformation template bootstrap chef-solo using cfn-init and install [latest][latest] WordPress.
 
 
+## Cloudformation Template
 
 {% highlight json %}
 {
