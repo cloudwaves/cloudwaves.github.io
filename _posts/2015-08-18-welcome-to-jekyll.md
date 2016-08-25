@@ -1,15 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Cloudformation template to install WordPress using Chef-Solo"
 date:   2015-08-18 15:07:19
-categories: [tutorial]
+categories: [aws, cloudformation, chef, wordpress]
 comments: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This Cloudformation template has created to build a stack from scratch starts from creating `vpc`<!--more-->, `two public subnets` for elastic loadbalancer (elb), `private subnet` for webserver and RDS and uses autoscaling for scale-up and scale-down,
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-<!--more-->
 
 Jekyll also offers powerful support for code snippets:
 
