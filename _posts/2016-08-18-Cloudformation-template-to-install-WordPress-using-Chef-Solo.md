@@ -1081,4 +1081,7 @@ This Cloudformation template has created to build a stack from scratch starting 
 }
 {% endhighlight %}
 
+Download from [Github][githublink]
+
 [latest]:   https://wordpress.org/latest.zip
+[githublink]: https://github.com/cloudwaves/cfn-templates.git
