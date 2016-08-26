@@ -4,17 +4,17 @@ title: "PowerShell Script - MSSQL Backup to zip and upload to AWS S3 "
 date:   2016-08-26 16:44:27
 categories: [powershell, mssql, automation, aws, s3]
 tags: [powershell, mssql, backup, automation, s3, aws]
-author: cloudwaves
 comments: true
 ---
-
 PowerShell (including Windows PowerShell and PowerShell Core) is a task automation <!--more-->and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language built on the .NET Framework.
 
-I was googling to find a script to backup my MSSQL database and zip the file and upload the content to S3 folder, but unfortunately I could not able to find. So I made myself and sharing here.
+I was googling to find a script to backup my MSSQL database and zip the content plus uploading it to S3 folder, but unfortunately I could not able to find. So I made myself and sharing here.
 
 Requrinment:
     1.  [7zip][7zip]
     2.  [AWS Tools for Windows PowerShell][awspstools]
+
+First you need to specific the values to execute the script. The script will backup all your database available in the SQL Instance. If you need to exclude the database to not to backup, include the database name in $arrDBsToExclude. If you have IAM roles attached to instance, you no need to specify the $accessKey & $secretKey details.
 
 ## PowerShell Script
 
