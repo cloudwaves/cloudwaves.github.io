@@ -2,6 +2,7 @@
 layout: post
 title: "PowerShell Script - MSSQL Backup to zip and upload to AWS S3 "
 date:   2016-08-26 16:44:27
+categories: [powershell, mssql, automation, aws, s3]
 tags: [powershell, mssql, backup, automation, s3, aws]
 author: cloudwaves
 comments: true
