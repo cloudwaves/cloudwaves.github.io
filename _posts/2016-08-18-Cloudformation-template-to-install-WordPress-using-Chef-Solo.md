@@ -916,6 +916,9 @@ This Cloudformation template has created to build a stack from scratch starting 
             "Type": "AWS::CloudFormation::WaitCondition",
             "DependsOn": "WebServerGroup",
             "Properties": {
+                 "Count": { 
+                    "Ref": "GroupSize" 
+                },
                 "Handle": {
                     "Ref": "WaitHandle"
                 },
